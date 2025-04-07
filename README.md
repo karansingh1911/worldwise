@@ -66,6 +66,9 @@ cd worldwise
 # Install dependencies
 npm install
 
-# Start the app and JSON Server
+# Start the app 
 npm run dev
+
+# Start JSON Server
+npm run server
 ```
