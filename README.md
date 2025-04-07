@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🌍 WorldWise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Save your favorite places around the world — and see them beautifully rendered on a map. Built with React and modern frontend best practices.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Project Overview
 
-### `npm start`
+**WorldWise** is a travel companion app that allows users to save and view their favorite locations across the globe. It combines geolocation, mapping, and performance-optimized UI to deliver a smooth and interactive experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **React** (with hooks)
+- **React Router** – for client-side routing
+- **Context API** – for state management across the app
+- **Tailwind CSS** + **CSS Modules** – clean, modular styling
+- **JSON Server** – for mocking backend data
+- **React Lazy & Suspense** – for lazy loading and code splitting
+- **Geolocation API** – to detect user location
+- **Geocoding API** – to fetch coordinates based on location names
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🌐 **Save Favorite Places**: Pin locations on the map and keep a personal list.
+- 📍 **Auto-Detect Current Location**: Uses the browser's Geolocation API.
+- 🗺️ **Interactive Map**: Browse saved places visually.
+- 🔁 **Dynamic Routing**: Seamless navigation between views using React Router.
+- ⚡ **Performance Optimizations**:
+  - Lazy-loaded components
+  - Code splitting via `React.lazy`
+  - Minimal re-renders with `React.memo`
+- 💅 **Fully Styled UI**:
+  - Tailwind CSS for utility-first design
+  - CSS Modules for scoped component styles
+- 🧪 **Fake Backend**:
+  - JSON Server used to simulate backend interactions
+  - Initial data is preloaded to enhance UX
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📚 What I Learned
 
-### `npm run eject`
+This project was a deep dive into many advanced React concepts and frontend techniques:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Managing global state without external libraries using the **Context API**
+- Building modular and maintainable UIs with **Tailwind CSS** and **CSS Modules**
+- Implementing **code splitting** and **lazy loading** to reduce initial load time
+- Working with **browser APIs** like Geolocation and integrating external APIs (Geocoding)
+- Creating a local backend simulation with **JSON Server**
+- Leveraging **React Router** for a smooth SPA experience
+- Applying **performance optimization** best practices in real-world scenarios
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repo
+git clone https://github.com/karansingh1911/worldwise.git
+cd worldwise
 
-## Learn More
+# Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the app and JSON Server
+npm run dev
+```
