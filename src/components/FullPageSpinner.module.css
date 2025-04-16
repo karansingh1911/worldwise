@@ -1,0 +1,8 @@
+.fullPageSpinner {
+  margin: 2.5rem;
+  height: calc(100vh - 5rem);
+  display: flex;
+  background-color: var(--color-dark--1);
+  justify-content: center;
+  align-items: center;
+}

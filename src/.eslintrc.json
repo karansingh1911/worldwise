@@ -1,0 +1,10 @@
+{
+  "extends": "react-app",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "Intl": "readonly"
+  }
+}
